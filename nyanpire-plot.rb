@@ -1,57 +1,80 @@
-# VAMPIRE CAT EATS THE RICH
-
-# Player is a cat.
-# Cat gets got by poor vampire
-# Cat now hates poor people.
-
-# STORY BRANCH!
-# Cat is hungry… Will he forgive the poor?
-# YES || NO
-
-# If NO
-# Cat Hungry meter …….
-
-# Will cat get desperate?
-# YES || NO
+puts 'SahtrAto Productions welcomes you.....'
+sleep 2.0
+puts 'Welcome to the best text game ever created!!'
+sleep 3.0
+puts 'Welcome TO...........'
+sleep 3.0
+puts 'ARROGANT VAMPIRE CAT EATS THE RICH'
+sleep 5.0
+puts 'Enter your name:'
+name = gets.chomp
+p name
 
 
-# It was a chilly Thursday evening in Transylvania. A crisp 43 degrees  to be exact. You are a small, hungry alley cat just wanting to find a warm meal and a place to sleep.
-# Families have just finished their dinners and are heading home for the night. No one happened to notice the cute little creature curled up behind trash bins. Except a very pale fellow with bright red eyes and a wicked smile. He was wearing a musty vest with missing buttons, and what looked like dried spaghetti sauce on his pants. He reached down to pick up the cat. You assume he just wants a cuddle! YOU ARE WRONG. HAHAHAHA
+puts
+"It was a chilly Thursday evening in Transylvania. A crisp 43 degrees to be exact. You are a small, hungry alley cat named #{name} just wanting to find a warm meal and a place to sleep.".each_char do |value|
+    putc value
+    sleep 0.09
+end
 
-# This hobo looking of a guy is a vampire!!! *gasp* He sinks his teeth into your scruff, You scream! and you black out…..
+sleep 2.0
 
+puts
+'Families have just finished their dinners and are heading home for the night. No one happened to notice the cute little creature curled up behind trash bins. Except a very pale fellow with bright red eyes and a wicked smile. He was wearing a musty vest with missing buttons, and what looked like dried spaghetti sauce on his pants. He reached down to pick up the cat. You assume he just wants a cuddle! YOU ARE WRONG. HAHAHAHA'.each_char do |value|
+    putc value
+    sleep 0.09
+end
 
-# *Cat wakes up*
+sleep 2.5
 
-# You wake up feeling really… different… 
-# You’re still hungry but have a new craving…
-# You’re tired of taste garbage. You’d rather DIE than eat more garbage.
-# What did that homeless vampire do to you?!
-
-
-# You venture off to the sidewalk and find yourself infant of the best Italian restaurant in all of Romania.
-# A wealthy family is walking out to their Bugatti with the flashy rims.
-# The mother was wearing a long mink coat with lots are large pearls.
-# The father was wearing his best English oxfords and his family heirloom; a golden pocket watch from his great-great grand uncle Henry IV
-# The son had a surprisingly large book in his hands and a face that even a grandmother would want to punch.
-# And their daughter a sissy little bitch, always got want she wanted. And she LOVED cats!
-
-# The daughter notices you stalking them from behind the valet counter.
-# As their Bugatti rolls up, the daughter sneaks you into the car with her!
-
-# YOU CHOOSE:
-# You meow very loud in excited for your new ‘family’
-# OR
-# You stay very quiet until you reach your destination
+puts
+'This hobo looking of a guy is a vampire!!! *gasp* He sinks his teeth into your scruff, You scream! and you black out…..'.each_char do |value|
+    putc value
+    sleep 0.09
+end
 
 
-# IF YOU CHOOSE 1:
-# You startle everyone in the car!
-# BIANCA!!!!!! DID YOU SNATCH A CAT AGAIN?!
-# Bianca: but Dad! This one is perfect!! Look how cute it is!
+'*Cat wakes up*'.each_char do |value|
+    putc value
+    sleep 0.06
+end
 
-# IF YOU CHOOSE 2:
-# You sit quietly in the little girls lap as she happily pets you. Her brother is so engrossed in his book that he doesn’t notice.
+'You wake up feeling really… different… 
+You’re still hungry but have a new craving…
+You’re tired of taste garbage. You’d rather DIE than eat more garbage.
+What did that homeless vampire do to you?!'.each_char do |value|
+    putc value
+    sleep 0.06
+end
+
+
+'You venture off to the sidewalk and find yourself infant of the best Italian restaurant in all of Romania.
+A wealthy family is walking out to their Bugatti with the flashy rims.
+The mother was wearing a long mink coat with lots are large pearls.
+The father was wearing his best English oxfords and his family heirloom; a golden pocket watch from his great-great grand uncle Henry IV
+The son had a surprisingly large book in his hands and a face that even a grandmother would want to punch.
+And their daughter a sissy little bitch, always got want she wanted. And she LOVED cats!'.each_char do |value|
+    putc value
+    sleep 0.06
+end
+
+'The daughter notices you stalking them from behind the valet counter.
+As their Bugatti rolls up, the daughter sneaks you into the car with her!'.each_char do |value|
+    putc value
+    sleep 0.05
+end
+
+puts 'Enter yes or no'
+user_input = gets.chomp
+
+if user_input == 'yes'
+    p "You meow very loud in excitement for your new ‘family’ You startle everyone in the car! BIANCA!!!!!! DID YOU SNATCH A CAT AGAIN?! Bianca: but Dad! This one is perfect!! Look how cute it is!"
+
+elsif user_input == 'no'
+    p  "You stay very quiet until you reach your destination. You sit quietly in the little girls lap as she happily pets you. Her brother is so engrossed in his book that he doesn’t notice."
+
+end
+
 
 # You arrive at their… MANSION?! 
 # Where do you want to explore first?
@@ -61,11 +84,20 @@
 # Bianca’s room,
 # The courtyard.
 
-# IF YOU CHOOSE:
-# The kitchen: You walk the kitchen and are greeted by the personal chef!
-# Chef: Aw what a cute little kitty! Did Bianca bring you home?
-# As the chef reaches down to pet you, YOU BITE HER HAND.
-# The chef smacks you! OUCH!! she exclaims as she runs to the restroom to tend to her fresh wound.
+puts "Enter 1 for Kitchen, 2 for Dads study, 3 for Biancas room, 4 for the courtyard"
+
+user_input = gets.chomp
+
+if user_input == '1' 
+    p "The kitchen: You walk the kitchen and are greeted by the personal chef!"
+elsif user_input == '2' 
+    p "Chef: Aw what a cute little kitty! Did Bianca bring you home?"
+elsif user_input == '3' 
+    p "As the chef reaches down to pet you, YOU BITE HER HAND."
+elsif user_input == '4' 
+    p "The chef smacks you! OUCH!! she exclaims as she runs to the restroom to tend to her fresh wound."
+
+end
 
 # Dad’s study: You walk into a very cozy atmosphere. You notice  A large window is outline by floor to ceiling bookshelves. The faint sound a a fireplace crackles near the  genuine leather sofa that the maid seems to be very fond of. with a long cherry oak desk  sits in the center with a large expensive monitor 
 
@@ -75,6 +107,22 @@
 # Jump on the desk.
 # OR 
 # Leave the room.
+
+puts "Enter 1 for Jump on the couch. Enter 2 for Jump on the desk. Enter 3 for Leave the room."
+
+user_input = gets.chomp
+
+if user_input == '1'
+    p "You jump on the couch which is supringsingly very comfy. You decide this is a perfect place to sharpen your claws!"
+    elsif user_input == '2'
+        p "You decide to jump on the desk for a better look around. Thats a nice looking keyboard! It would be a shame if it got… wet"
+        elsif user_input == '3'
+            p 'You decide to leave the room. I wonder what else this mansion has to offer?'
+        end
+
+        puts "Maid catches you and throws you in the fireplace and you cook and the moral of the story is..... Don't trust rich people!!!"
+        sleep 0.06
+        puts "Just remember cats have 9 lives!! TO BE CONTINUED................"
 
 # IF YOU CHOOSE:
 # Jump on couch: You jump on the couch which is supringsingly very comfy. You decide this is a perfect place to sharpen your claws!

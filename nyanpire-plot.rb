@@ -48,9 +48,9 @@ What did that homeless vampire do to you?!'.each_char do |value|
 end
 
 
-'You venture off to the sidewalk and find yourself infant of the best Italian restaurant in all of Romania.
+'You venture off to the sidewalk and find yourself in front of the best Italian restaurant in all of Romania.
 A wealthy family is walking out to their Bugatti with the flashy rims.
-The mother was wearing a long mink coat with lots are large pearls.
+The mother was wearing a long mink coat with lots and large pearls.
 The father was wearing his best English oxfords and his family heirloom; a golden pocket watch from his great-great grand uncle Henry IV
 The son had a surprisingly large book in his hands and a face that even a grandmother would want to punch.
 And their daughter a sissy little bitch, always got want she wanted. And she LOVED cats!'.each_char do |value|

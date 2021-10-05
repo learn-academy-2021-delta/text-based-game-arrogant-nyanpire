@@ -41,7 +41,7 @@ end
 
 'You wake up feeling really… different… 
 You’re still hungry but have a new craving…
-You’re tired of taste garbage. You’d rather DIE than eat more garbage.
+You’re tired of tasting garbage. You’d rather DIE than eat more garbage.
 What did that homeless vampire do to you?!'.each_char do |value|
     putc value
     sleep 0.06
@@ -64,7 +64,7 @@ As their Bugatti rolls up, the daughter sneaks you into the car with her!'.each_
     sleep 0.05
 end
 
-puts 'Enter yes or no'
+puts 'Enter yes if you would like to meow loudly in excitement or no to sit quietly'
 user_input = gets.chomp
 
 if user_input == 'yes'
@@ -75,31 +75,24 @@ elsif user_input == 'no'
 
 end
 
-
-# You arrive at their… MANSION?! 
-# Where do you want to explore first?
-# CHOOSE:
-# The kitchen,
-# Dad’s study,
-# Bianca’s room,
-# The courtyard.
+puts "You arrive at their… MANSION?! Where do you want to explore first? CHOOSE: The kitchen, Dad’s study, Bianca’s room, or The courtyard."
 
 puts "Enter 1 for Kitchen, 2 for Dads study, 3 for Biancas room, 4 for the courtyard"
 
 user_input = gets.chomp
 
 if user_input == '1' 
-    p "The kitchen: You walk the kitchen and are greeted by the personal chef!"
+    p "You walk into the kitchen and are greeted by the personal chef! And not in a good way. She doesn't like cats"
 elsif user_input == '2' 
-    p "Chef: Aw what a cute little kitty! Did Bianca bring you home?"
+    p "Dad’s study: You walk into a very cozy atmosphere. You notice  A large window is outline by floor to ceiling bookshelves. The faint sound of a fireplace crackles near the  genuine leather sofa that the maid seems to be very fond of. a long cherry oak desk  sits in the center with a large expensive monitor "
 elsif user_input == '3' 
-    p "As the chef reaches down to pet you, YOU BITE HER HAND."
+    p "As Bianca reaches down to pet you, YOU BITE HER HAND."
 elsif user_input == '4' 
-    p "The chef smacks you! OUCH!! she exclaims as she runs to the restroom to tend to her fresh wound."
+    p "You enter the courtyard where the chef has gone out there to take the trash out, you bite the chef!! The chef smacks you! OUCH!! she exclaims as she runs to the restroom to tend to her fresh wound."
 
 end
 
-# Dad’s study: You walk into a very cozy atmosphere. You notice  A large window is outline by floor to ceiling bookshelves. The faint sound a a fireplace crackles near the  genuine leather sofa that the maid seems to be very fond of. with a long cherry oak desk  sits in the center with a large expensive monitor 
+# 
 
 # YOU CHOOSE:
 # Jump on the couch.
